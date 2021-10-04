@@ -1,0 +1,35 @@
+main {
+  width: 50%;
+  margin: auto;
+  margin-right: auto;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+main section:first-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+  grid-gap: 5px;
+}
+
+main section:first-child input {
+  font-size: 30px;
+}
+
+main section {
+  margin-top: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main button {
+  height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Estilos.css.map */
